@@ -1,14 +1,24 @@
-altair==5.0.1
-numpy==1.25.2
-openpyxl==3.1.2
+# Core packages
+streamlit==1.30.0
 pandas==2.1.1
+numpy==1.26.0
+openpyxl==3.1.2
 Pillow==10.0.1
+num2words==0.5.14
+
+# Plotting / visualization
+altair==5.0.1
 pyparsing==3.1.1
 python-dateutil==2.9.0
 pytz==2025.7
 six==1.16.0
-streamlit==1.29.0
+
+# Streamlit utilities
 toml==0.10.2
 validators==0.20.0
 watchdog==3.0.0
-num2words==0.5.14
+
+# Build tools (needed for Streamlit Cloud)
+setuptools>=68.0
+wheel>=0.40
+pip>=23.2
